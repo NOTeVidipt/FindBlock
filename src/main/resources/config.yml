@@ -1,0 +1,13 @@
+# FindBlock configuration
+settings:
+  default-radius: 128
+  max-radius: 512
+  # Number of ticks to wait between chunks during a full-world scan. Higher = less server load.
+  chunk-delay-ticks: 1
+  progress-every-chunks: 500
+  # Prevents too many scans from running at once across the server.
+  max-active-searches: 2
+  # Keep the most recent results for each player.
+  history-size: 10
+  # Full-world search scans only chunks already present in region files; it never generates chunks.
+  full-world-existing-chunks-only: true
